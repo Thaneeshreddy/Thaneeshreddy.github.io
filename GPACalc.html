@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>AUM Gpa Calculator </title>
+	<link rel="shortcut icon" href="images/aum_icon.png">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/aum_style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="aum_script.js"></script>
+  <style>
+.width{column-width: 100px;}
+  .center{text-align: center;}
+  .table {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #ff8000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+  }
+  .corner{    
+  border-radius: 25px;  }
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff4814;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}*/
+</style>
+</head>
+<body>
+ <header>
+<ul class="nav">
+  <li style="float:left"><img src="aum_logo3.png"></li>
+  <li class="nav_header" ><a href=".\home.html">Home</a></li>
+  <li class="nav_header" ><a href=".\cse.html">Aum Cse Department</a></li>
+  <li class="nav_header"><a href=".\maths.html">Aum Maths Department</a></li>
+  <li class="nav_header"><a href=".\TA_Form.html ">TA Application</a></li>
+  <li class="nav_header" id="cse"><a href=".\GPACalc.html ">GPA Calculator</a></li>
+  
+</ul>			
+ </header>
+ <div>
+<br>
+<br>
+<br>
+<br>
+<table class="table">
+<tr><td class="center">Class#</td> <td class="center">Grade</td> <td >&nbspCredits</td><tr></tr><tr></tr>
+<tr>
+<td>Class 1</td>
+ <td><form name="GPACalc">
+   <select name="G1" id="G1" >
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C1" name="C1" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 2</td>
+ <td><form name="GPACalc">
+   <select name="G2" id="G2" >
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C2" name="C2" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 3</td>
+ <td><form name="GPACalc">
+   <select name="G3" id="G3" value=" ">
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C3" name="C3" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 4</td>
+ <td><form name="GPACalc">
+   <select name="G4" id="G4" value=" ">
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C4" name="C4" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 5</td>
+ <td><form name="GPACalc">
+   <select name="G5" id="G5">
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C5" name="C5" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 6</td>
+ <td><form name="GPACalc">
+   <select name="G6" id="G6" value=" ">
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C6" name="C6" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 7</td>
+ <td><form name="GPACalc">
+   <select name="G7" id="G7" value=" ">
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C7" name="C7" min="0" max="4" value="0"></input></td>
+</tr>
+<tr>
+<td>Class 8</td>
+ <td><form name="GPACalc">
+   <select nsame="G8" id="G8" value=" ">
+    <option value="NULL">Select Grade</option>
+    <option value="4">A</option>
+    <option value="3">B</option>
+    <option value="2">C</option>
+    <option value="1">D</option>
+    <option value="0">F</option>
+  </select></td>
+  <td><input type="number" id="C8" name="C8" min="0" max="4" value="0"></input></td>
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr> 
+<td></td><td></td><td>
+<input type="Button" value="Calculate" onclick="gpacalc()"></td></tr>
+</table>
+<br><br>
+ <div class="center">  
+GPA: <input type="text" name="GPA" id="GPA" disabled>
+Total Credits: <input type="text" name="Credits" id="Credits" disabled>
+</div>
+ </div>
+ <footer class="footer">
+ <div id="icons">
+  <a href="https://www.facebook.com/auburnmontgomery/"><i class="fa fa-facebook-official fa-2x"></i></a>
+  <a href="https://twitter.com/aumontgomery?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter fa-2x"></i></a>
+  <a href="https://www.instagram.com/auburnmontgomery/?hl=en"><i class="fa fa-instagram fa-2x"></i></a>
+  <a href="https://www.linkedin.com/school/auburn-university-montgomery/"><i class="fa fa-linkedin fa-2x"></i></a>
+  </div>
+  <small2> Copyright © 2020 · Auburn University Montgomery</small2>
+  <small2> - Web Development Final Project</small2>
+  <small2> - Thaneesh Reddy Veluru </small2>
+</footer>
+<script>
+function gpacalc()
+{
+//define valid grades and their values
+var G = new Array(18); // letter grade
+var C = new Array(18); // weight
+var ingr = new Array(8); // user input grade
+var incr = new Array(8); // user input credits
+
+// define valid grades and their values
+// upper case
+var grcount = 22; 
+// retrieve user input
+ingr[0] = document.GPACalc.G1.value;
+ingr[1] = document.GPACalc.G2.value;
+ingr[2] = document.GPACalc.G3.value;
+ingr[3] = document.GPACalc.G4.value;
+ingr[4] = document.GPACalc.G5.value;
+ingr[5] = document.GPACalc.G6.value;
+ingr[6] = document.GPACalc.G7.value;
+ingr[7] = document.GPACalc.G8.value;
+incr[0] = document.GPACalc.C1.value;
+incr[1] = document.GPACalc.C2.value;
+incr[2] = document.GPACalc.C3.value;
+incr[3] = document.GPACalc.C4.value;
+incr[4] = document.GPACalc.C5.value;
+incr[5] = document.GPACalc.C6.value;
+incr[6] = document.GPACalc.C7.value;
+incr[7] = document.GPACalc.C8.value;
+
+// Calculate GPA
+var allgr =0;
+var allcr = 0;
+var gpa = 0;
+var empty = 0;
+var full = 0;
+for (var x = 0; x < 8; x++)
+{
+   if (ingr[x] != "NULL")
+        {
+          full++;
+          if(incr[x] == "0")
+          {
+            alert("Error- You did not Class"+ x+ "credit values! GPA = N/A");
+            return 0;
+          }
+      }
+}
+  if(full < 2)
+        {
+         alert("Error: Please enter atleast two Grades")
+         return 0;
+        }
+for (var x = 0; x < 8; x++)
+        {
+        if (ingr[x] == "NULL")
+        {
+          
+        }
+        else
+         {
+                allgr = allgr + (parseInt(ingr[x],10)* incr[x]);
+                allcr = allcr + parseInt(incr[x],10);
+          }                        
+        }
+gpa = allgr / allcr;
+document.GPACalc.GPA.value = eval(gpa.toFixed(2));
+document.GPACalc.Credits.value = allcr;
+
+
+return 0;
+}
+</script>
+</body>
+</html>

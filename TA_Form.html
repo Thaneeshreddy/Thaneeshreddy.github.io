@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title> AUM TA Application </title>
+	<link rel="shortcut icon" href="images/aum_icon.png">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/aum_style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="aum_script.js"></script>
+</head>
+<body>
+ <header>
+<ul class="nav">
+  <li style="float:left"><img src="aum_logo3.png"></li>
+  <li class="nav_header" ><a href=".\home.html">Home</a></li>
+  <li class="nav_header" ><a href=".\cse.html">Aum Cse Department</a></li>
+  <li class="nav_header"><a href=".\maths.html">Aum Maths Department</a></li>
+  <li class="nav_header" id="cse"><a href=".\TA_Form.html">TA Application</a></li>
+  <li class="nav_header"><a href=".\GPACalc.html ">GPA Calculator</a></li>
+</ul>			
+ </header>
+ <div class="content1">
+ <img src="images/Students_at_Riverwalk.jpg">
+ <form name="TA_from" action="survey_data.html" method="GET">
+ <h2>Teaching Assistantship Form</h2>
+  <label for="sname">Student's full  name:</label><br>
+  <input type="text" id="sname" name="sname" value="" required><br>
+<br>
+  <label for="Id">ID:</label><br>
+  <input type="text" id="Id" name="Id" value="" pattern="^\d{1,10}$" required><br>
+<p>Please select your gender:<br>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  <p>GPA:<br>
+  <input type="number" id="Gpa" name="Gpa" value="" min = "0" max = "4" step="0.01" required><br>
+  <p>Submission Date:<br>
+  <input type="date" id="Date" name="Date" value="Today" required><br>
+  <p>Comments:<br>
+  <textarea id="Comments" name="Comments" rows="5" cols="50" maxlength="200" wrap="soft"></textarea><br>
+  <p>
+  <input type="reset" value="Reset">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <input type="submit" value="Submit"></p>
+</form> 
+ </div>
+ <footer class="footer">
+ <div id="icons">
+  <a href="https://www.facebook.com/auburnmontgomery/"><i class="fa fa-facebook-official fa-2x"></i></a>
+  <a href="https://twitter.com/aumontgomery?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter fa-2x"></i></a>
+  <a href="https://www.instagram.com/auburnmontgomery/?hl=en"><i class="fa fa-instagram fa-2x"></i></a>
+  <a href="https://www.linkedin.com/school/auburn-university-montgomery/"><i class="fa fa-linkedin fa-2x"></i></a>
+  </div>
+  <small2> Copyright © 2020 · Auburn University Montgomery</small2>
+  <small2> - Web Development Final Project</small2>
+  <small2> - Thaneesh Reddy Veluru </small2>
+</footer>
+</body>
+</html>

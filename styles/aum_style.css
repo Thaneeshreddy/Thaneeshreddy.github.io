@@ -1,0 +1,70 @@
+body {
+    height: 100%;
+	margin: 80px 20% 60px 20%;
+	font-family:"freight-sans-pro",sans-serif;
+	color:#333;
+	font-size;16px;
+	line-height: 1.5;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  height:70px;
+  right: 0;
+  top: 0;
+  margin: 0;
+  background: linear-gradient(to right, #ff4814 0%, #ff9900 100%);
+  text-align: center;
+}
+.nav_header:hover,.nav_header:focus {
+    background: #d3461e;
+}
+h1 ,h3 {
+	font-weight: 700;
+}
+h3 {
+    margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.nav li a{
+  color: white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:50px;
+  background: linear-gradient(to right, #ff4814 0%, #ff9900 100%);
+  text-align: center;
+  color: white;
+}
+.fa {
+	color: white;
+	}
+#icons a{
+	padding: 5px;
+	float:left;
+}
+#border thead {
+	text-align:left;
+}
+#border td {
+	border:1px solid black;
+	padding: 5px;
+}
+p {
+	margin: 0 0 10px;
+}
+#maths_table {
+	border-color: white;
+}
+#maths_table tbody tr:nth-child(even) td {
+			background-color: #ffcc99;
+		}		
